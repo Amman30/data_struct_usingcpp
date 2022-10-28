@@ -49,13 +49,13 @@ int main()
     struct Node* head = NULL;
     int x = 21;
 
-    push(&head, 10);
-    push(&head, 30);
-    push(&head, 11);
-    push(&head, 21);
-    push(&head, 14);
+    push(&head, 104);
+    push(&head, 130);
+    push(&head, 121);
+    push(&head, 216);
+    push(&head, 114);
  
-    search(head, 21)? printf("Yes") : printf("No");
+    search(head, 21)? printf("yes") : printf("no");
     return 0;
 }
  
